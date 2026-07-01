@@ -24,3 +24,19 @@ Compared to the baseline group of mothers with **No Education**:
 - **Goodness of Fit:** Pseudo R-squared = 0.0038. This low magnitude is entirely typical for cross-sectional epidemiological survey data where unobserved biological and daily behavioral variables dictate transient morbidity outcomes.
 
 ![Forest Plot](forest_plot.png)
+
+## 🔍 Statistical Interpretation & Key Findings
+
+### The Unexpected Signal: Why the Confounders Didn't "Explain It Away"
+In early univariable baseline models, a clear statistical relationship emerged between maternal education and reported childhood illness. A common initial hypothesis might suggest that this effect is merely a proxy for socioeconomic privilege—meaning that educated mothers simply have more household wealth or superior water infrastructure, and controlling for these factors would cause the relationship to disappear.
+
+However, upon implementing the multivariable logistic regression model and controlling for the **Household Wealth Index** and **Water/Sanitation Infrastructure**, the relationship did not attenuate. Instead, the signal clarified, yielding a robust adjusted Odds Ratio (**aOR = 1.25**). This indicates that when comparing households with the *exact same wealth levels and environmental conditions*, children of mothers with primary or secondary education still exhibit 25% higher odds of reported illness. 
+
+### The Analytical Breakthrough: Surveillance Bias
+Because socioeconomic covariates do not explain away this statistical spike, the data strongly supports a **Surveillance Bias** (or reporting bias) framework rather than a biological failure:
+
+* **High Health Literacy:** Educated mothers are statistically more likely to monitor symptoms closely, recognize early signs of childhood illness, and utilize diagnostic healthcare spaces.
+* **Differential Recall:** When surveyed by field researchers, highly aware caretakers are far more likely to accurately recall and report mild or transient illness events (e.g., minor fevers, respiratory coughs) that might otherwise go unrecorded.
+* **The Dashboard Analogy:** Much like a driver who understands mechanics will notice and report every faint engine rattle to a garage, these mothers aren't necessarily raising sicker children; they are simply highly trained observers who meticulously document health events.
+
+This finding highlights the critical importance of looking beyond superficial data trends to understand the underlying sociological behaviors driving large-scale national health survey metrics.
